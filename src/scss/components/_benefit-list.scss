@@ -2,14 +2,14 @@
   padding: 5rem 0;
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
   gap: 78px;
   margin-bottom: 136px;
-  width: 880px;
-  height: 508px;
+  max-width: 880px;
+  min-height: 508px;
   .benefit-preview {
     padding: 0 4px;
     flex-basis: 349px;

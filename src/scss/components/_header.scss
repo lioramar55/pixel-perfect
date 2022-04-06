@@ -1,10 +1,9 @@
 header {
-  padding: 74px 80px;
   background-color: $introBG;
-
+  width: 100%;
   .main-header {
     display: flex;
-    width: 1279px;
+    width: 90%;
     height: 51px;
     justify-content: space-between;
     margin: 0 auto;
@@ -12,11 +11,10 @@ header {
       ul {
         display: flex;
         list-style: none;
-        // gap: 62px;
         color: $neutral;
         li {
           a {
-            padding: 1rem 31px;
+            padding: 0.5rem 1rem;
           }
           cursor: pointer;
         }

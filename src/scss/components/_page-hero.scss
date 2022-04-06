@@ -4,29 +4,33 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
+
   .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+
     color: $neutral;
     .hero-img {
-      width: 720px;
-      height: 534px;
+      max-width: 720px;
+      img {
+        width: 100%;
+      }
     }
     .headline {
-      width: 734px;
+      max-width: 734px;
       h1 {
         font-size: 40px;
         font-weight: 700;
       }
     }
     .sub-headline {
-      width: 589px;
+      max-width: 589px;
       p {
         font-size: 20px;
-        font-family: Open-Sans;
+        font-family: 'Open-Sans';
       }
     }
     .call-to-action {
