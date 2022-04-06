@@ -1,7 +1,7 @@
 <template>
   <div class="main-footer">
     <div class="footer-logo">
-      <img src="src/assets/logo.svg" />
+      <img src="@/assets/logo.svg" />
     </div>
     <footer>
       <div class="footer-info">

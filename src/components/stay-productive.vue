@@ -2,7 +2,7 @@
   <div class="stay-productive">
     <div class="illustration">
       <img
-        src="src/assets/illustration-stay-productive.png"
+        src="@/assets/illustration-stay-productive.png"
       />
     </div>
     <div class="stay-productive-description">
@@ -27,7 +27,7 @@
       <div class="demo-link">
         <a
           >See how Fylo works
-          <img src="src/assets/icon-arrow.svg" />
+          <img src="@/assets/icon-arrow.svg" />
         </a>
       </div>
     </div>
