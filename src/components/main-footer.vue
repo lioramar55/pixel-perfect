@@ -5,33 +5,7 @@
     </div>
     <footer>
       <div class="footer-info">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-        >
-          <g
-            id="Group_34"
-            data-name="Group 34"
-            transform="translate(0)"
-          >
-            <rect
-              id="Rectangle_11_Copy_2"
-              data-name="Rectangle 11 Copy 2"
-              width="24"
-              height="24"
-              fill="none"
-            />
-            <g id="place" transform="translate(0 3)">
-              <path
-                id="Shape"
-                d="M6.188,18h0A41.608,41.608,0,0,1,3.094,13.9C1.682,11.77,0,8.718,0,6.3A6.326,6.326,0,0,1,1.8,1.834a6.163,6.163,0,0,1,8.773,0,6.326,6.326,0,0,1,1.8,4.466c0,2.418-1.682,5.47-3.094,7.6A41.608,41.608,0,0,1,6.188,18Zm0-13.95A2.206,2.206,0,0,0,3.978,6.3,2.21,2.21,0,1,0,8.4,6.3,2.206,2.206,0,0,0,6.188,4.05Z"
-                fill="#fff"
-              />
-            </g>
-          </g>
-        </svg>
+        <i class="fa-solid fa-location-dot"></i>
         <div class="description">
           <p>
             Lorem ipsum dolor sit amet, consectetur
@@ -111,7 +85,15 @@
           <li><a>Privacy</a></li>
         </ul>
       </nav>
-      <div class="social"></div>
+      <div class="social">
+        <a href="https://github.com/lioramar55"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/lior-amar-9b298016b/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
     </footer>
   </div>
 </template>
