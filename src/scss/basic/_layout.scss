@@ -1,0 +1,12 @@
+html,
+body,
+#app,
+.app-container {
+  height: 100%;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

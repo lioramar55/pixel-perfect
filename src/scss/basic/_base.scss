@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: Open-Sans, Sans-serif;
+  background-color: $mainBG;
+  margin: 0;
+  padding: 0;
+  color: $neutral;
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+nav {
+  font-family: Raleway, Sans-serif;
+}

@@ -1,0 +1,44 @@
+.page-hero {
+  background-color: $introBG;
+  background-image: url('src/assets/bg-curvy-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $neutral;
+    .hero-img {
+      width: 720px;
+      height: 534px;
+    }
+    .headline {
+      width: 734px;
+      h1 {
+        font-size: 40px;
+        font-weight: 700;
+      }
+    }
+    .sub-headline {
+      width: 589px;
+      p {
+        font-size: 20px;
+        font-family: Open-Sans;
+      }
+    }
+    .call-to-action {
+      button {
+        border: none;
+        background-color: $blue;
+        width: 280px;
+        height: 56px;
+        color: $neutral;
+        border-radius: 2rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.benefit-list {
+  padding: 5rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 78px;
+  margin-bottom: 136px;
+  width: 880px;
+  height: 508px;
+  .benefit-preview {
+    padding: 0 4px;
+    flex-basis: 349px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .icon {
+      width: 103px;
+      height: 103px;
+    }
+  }
+}

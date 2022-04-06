@@ -1,0 +1,40 @@
+.get-started {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: 400px;
+  .get-started-form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 873px;
+    transform: translate(-50%, -50%);
+    background-color: #1b2330;
+    padding: 42px 77px;
+    box-shadow: 1px 1px 1px 1px #333;
+    form {
+      display: flex;
+      gap: 29px;
+      input {
+        width: 480px;
+        height: 48px;
+        border-radius: 1.5rem;
+      }
+      button {
+        background-color: $cyan;
+        border-radius: 2rem;
+        cursor: pointer;
+        border: none;
+        color: $neutral;
+        width: 200px;
+        height: 48px;
+      }
+    }
+  }
+  .spacer {
+    flex-basis: 200px;
+    background-color: $footerBG;
+  }
+}

@@ -1,0 +1,29 @@
+.stay-productive {
+  display: flex;
+  margin: 0 auto;
+  gap: 57px;
+  padding: 0 100px;
+  .illustration {
+    width: 614px;
+    flex-basis: 463px;
+  }
+  .stay-productive-description {
+    align-self: center;
+
+    flex-basis: 563px;
+    .demo-link {
+      color: $cyan;
+      .title {
+        h1 {
+          font-size: 40px;
+        }
+      }
+      a {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
