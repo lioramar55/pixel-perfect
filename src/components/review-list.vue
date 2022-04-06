@@ -23,7 +23,7 @@ export default {
           from: {
             fullname: 'Satish Patel',
             role: 'Founder & CEO, Huddle',
-            img: '@/assets/profile-1.jpg',
+            img: 'src/assets/profile-1.jpg',
           },
           content:
             'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
@@ -33,7 +33,7 @@ export default {
           from: {
             fullname: 'Bruce McKenzie',
             role: 'Founder & CEO, Huddle',
-            img: '@/assets/profile-2.jpg',
+            img: 'src/assets/profile-2.jpg',
           },
           content:
             'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
@@ -43,7 +43,7 @@ export default {
           from: {
             fullname: 'Iva Boyd',
             role: 'Founder & CEO, Huddle',
-            img: '@/assets/profile-3.jpg',
+            img: 'src/assets/profile-3.jpg',
           },
           content:
             'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
