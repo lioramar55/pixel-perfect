@@ -1,20 +1,19 @@
 .main-footer {
   background-color: $footerBG;
   display: flex;
-  padding: 100px;
   flex-direction: column;
+
   footer {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     .footer-info {
       display: flex;
       width: 379px;
       height: 72px;
       font-size: 16px;
-      margin-right: 80px;
     }
     .contact-info {
-      margin-right: 140px;
       .phone {
         margin-bottom: 16px;
       }
@@ -28,9 +27,6 @@
     nav {
       display: flex;
       ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
         display: flex;
         flex-direction: column;
         gap: 17px;
@@ -40,9 +36,6 @@
       }
       .first-nav {
         margin-right: 80px;
-      }
-      .second-nav {
-        margin-right: 116px;
       }
     }
     .social {
