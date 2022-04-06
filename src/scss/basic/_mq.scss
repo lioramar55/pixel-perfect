@@ -5,8 +5,10 @@
   .get-started-form {
     padding: 16px 32px;
 
-    form > * {
-      width: 90%;
+    form {
+      justify-content: center;
+      align-items: stretch;
+      flex-direction: column;
     }
   }
   .main-footer {
@@ -58,7 +60,7 @@
     padding: 100px;
     nav {
       flex-direction: row;
-      gap: 10rem;
+      gap: 80px;
       .first-nav {
         margin-bottom: 0;
       }

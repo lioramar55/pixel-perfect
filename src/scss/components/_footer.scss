@@ -6,12 +6,19 @@
   footer {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     gap: 30px;
     .footer-info {
       display: flex;
+      align-items: center;
+      gap: 10px;
       width: 379px;
       height: 72px;
       font-size: 16px;
+      i {
+        align-self: baseline;
+        margin-top: 14px;
+      }
     }
     .contact-info {
       .phone {
@@ -33,9 +40,6 @@
         li {
           cursor: pointer;
         }
-      }
-      .first-nav {
-        margin-right: 80px;
       }
     }
     .social {
